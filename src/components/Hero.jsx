@@ -3,7 +3,7 @@ import { useGSAP } from "@gsap/react"
 
 const Hero = () => {
     useGSAP (() => {
-        gsap.to('#hero', {opacity: 1 })
+        gsap.to('#hero', {opacity: 1, delay: 1.5 })
     }, [])
   return (
     <section className="w-full nav-height bg-black relative"> 
